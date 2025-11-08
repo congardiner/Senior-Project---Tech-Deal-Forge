@@ -68,6 +68,10 @@ output/*.csv
 MASTER_README.md
 AI_INTEGRATION_GUIDE.md
 gemini_integration.py
+colab_training_script.py
+init_cloud_db.py
+quick_upload.py
+ml_integration.py
 
 # ML models (if large)
 *.joblib
