@@ -1,0 +1,14 @@
+# Streamlit Cloud Configuration
+# This file tells Streamlit Cloud how to run your app
+
+[general]
+email = ""  # Your email (optional)
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

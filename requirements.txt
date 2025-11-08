@@ -1,0 +1,22 @@
+# Tech Deal Forge - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.17.0
+sqlite3  # Built-in with Python, but listed for reference
+
+# Web scraping dependencies
+botasaurus>=4.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Data processing
+numpy>=1.24.0
+
+# Optional: ML dependencies (if using ML features)
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Optional: AI integration (if using Gemini)
+# google-generativeai>=0.3.0

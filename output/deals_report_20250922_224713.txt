@@ -1,0 +1,37 @@
+============================================================
+DEALS DATA ANALYSIS REPORT
+Generated: 2025-09-22 22:47:13
+============================================================
+
+OVERVIEW:
+Total Deals: 81
+Deals with Prices: 76
+Latest Scrape: 2025-09-22 22:45:41.329355
+Oldest Data: 2025-09-22 22:45:41.329355
+
+PRICE ANALYSIS:
+Price Range: $4.49 - $1999.00
+Average Price: $394.30
+Median Price: $134.48
+
+PRICE DISTRIBUTION:
+Under $50: 28 deals
+$50-$200: 13 deals
+$200-$500: 13 deals
+Over $500: 22 deals
+
+CATEGORY BREAKDOWN:
+dealstech: 40 deals (avg: $342.60)
+computer-deals: 41 deals (avg: $443.34)
+
+TRENDING KEYWORDS:
+16gb: 9 mentions
+ryzen: 8 mentions
+amazon: 8 mentions
+mini: 7 mentions
+ymmv: 6 mentions
+apple: 6 mentions
+core: 6 mentions
+desktop: 6 mentions
+station: 5 mentions
+port: 5 mentions

@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+scraper_log.txt
+
+# Backups
+backups/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.backup
+.env.local
+
+# Database - IMPORTANT CHOICE:
+# Option 1: Ignore database (local only) - RECOMMENDED for development
+output/*.db
+output/*.db-journal
+
+# Option 2: Track database (for Streamlit Cloud) - Uncomment if deploying
+# Leave commented if DB is large (>100MB won't work on GitHub free)
+# !output/deals.db
+
+# CSV exports (usually too many to track)
+output/*.csv
+
+# ML models (if large)
+*.joblib
+*.pkl
+*.h5
+
+# Error logs
+error_logs/

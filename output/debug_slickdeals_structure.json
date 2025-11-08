@@ -1,0 +1,25 @@
+{
+    "selectors_found": {
+        ".fpItem": 0,
+        ".dealItem": 0,
+        ".dealTile": 0,
+        "[data-role='threaditem']": 0,
+        ".threadItem": 0,
+        ".deal": 0,
+        ".bp-p-dealCard": 41,
+        ".dealCard": 0
+    },
+    "deal_classes_sample": [
+        "slickdealsHeader",
+        "slickdealsHeaderDropdownItem",
+        "slickdealsHeaderDropdownItem__link",
+        "slickdealsHeaderDropdownItem__link--featured",
+        "slickdealsHeaderDropdownItem__linkText",
+        "slickdealsHeaderLogo",
+        "slickdealsHeaderLogo__mark",
+        "slickdealsHeaderLogo__text",
+        "slickdealsHeaderSearch",
+        "slickdealsHeaderSearch__input"
+    ],
+    "deal_links_count": 76
+}

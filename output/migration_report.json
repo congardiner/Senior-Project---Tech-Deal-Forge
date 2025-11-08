@@ -1,0 +1,11 @@
+{
+  "migration_date": "2025-10-10T17:37:56.308430",
+  "sqlite_count": 1260,
+  "migrated_count": 0,
+  "skipped_count": 1260,
+  "error_count": 0,
+  "final_mysql_count": 1260,
+  "success_rate": 0.0,
+  "websites_count": 5,
+  "categories_count": 55
+}
