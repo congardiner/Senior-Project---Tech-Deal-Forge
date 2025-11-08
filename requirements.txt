@@ -4,7 +4,6 @@
 streamlit>=1.28.0
 pandas>=2.0.0
 plotly>=5.17.0
-sqlite3  # Built-in with Python, but listed for reference
 
 # Web scraping dependencies
 botasaurus>=4.0.0
