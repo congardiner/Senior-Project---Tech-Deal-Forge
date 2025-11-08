@@ -57,12 +57,11 @@ backups/
 
 # Database - IMPORTANT CHOICE:
 # Option 1: Ignore database (local only) - RECOMMENDED for development
-output/*.db
 output/*.db-journal
 
-# Option 2: Track database (for Streamlit Cloud) - Uncomment if deploying
-# Leave commented if DB is large (>100MB won't work on GitHub free)
-# !output/deals.db
+# Option 2: Track database (for Streamlit Cloud) - Enabled for deployment
+# Database is 13.74 MB (well under 100MB GitHub limit)
+!output/deals.db
 
 # CSV exports (usually too many to track)
 output/*.csv
