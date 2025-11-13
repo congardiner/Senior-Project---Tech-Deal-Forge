@@ -56,12 +56,13 @@ backups/
 .env.local
 
 # Database - IMPORTANT CHOICE:
-# Option 1: Ignore database (local only) - RECOMMENDED for development
 output/*.db-journal
 
-# Option 2: Track database (for Streamlit Cloud) - Enabled for deployment
+
+
 # Database is 13.74 MB (well under 100MB GitHub limit)
 !output/deals.db
+output/*.db
 
 # CSV exports (usually too many to track)
 output/*.csv
