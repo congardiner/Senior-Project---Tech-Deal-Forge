@@ -38,7 +38,7 @@ The dashboard displays aggregated data from:
 - **Data Processing:** Pandas
 - **Database:** SQLite
 - **Web Scraping:** Botasaurus + BeautifulSoup
-- **ML:** scikit-learn (optional)
+- **ML:** scikit-learn trained utilizing Google Colab
 
 ## Project Structure
 ```
