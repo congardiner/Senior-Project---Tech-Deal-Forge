@@ -1,7 +1,53 @@
 # Tech Deal Forge - Streamlit Dashboard
 🔥 **Real-time tech deals aggregator and price tracker**
-
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tech-deal-forge-dashboard.streamlit.app/)
+
+## Overview of the Project 
+
+The 'Tech Deal Forge' is an all-in-one dashboard for discovering real tech deals without the noise. It consolidates web-scraped pricing data, historical trends, and lightweight machine-learning predictions into a single streamlined platform. By aggregating product information from multiple sources and presenting it through a simple Streamlit interface, the project helps users quickly determine whether a tech product is fairly priced, discounted, or worth waiting for.
+
+## Problem Statement
+
+Finding a genuine “good deal” on tech products is time-consuming, inconsistent, and often misleading due to scattered information, promotional bias, and fluctuating prices. Users are forced to manually search multiple sites or rely on community forums that don’t always provide historical context or price-trend insights.
+
+## Real World Impact
+
+Tech Deal Forge reduces the time, stress, and uncertainty involved in tech-deal hunting. By combining historical price data, simple visual analytics, and a basic ML model to estimate potential price drops, users can make more informed purchasing decisions and avoid overpaying—especially valuable for students, budget-conscious buyers, and anyone who wants data-driven guidance rather than marketing-driven claims.
+
+## Target Audience
+
+- Students and budget-conscious consumers
+- Tech enthusiasts tracking price changes
+- Deal hunters who want historical data, not 'projected hype' but a real-world timeline
+- Anyone looking for a central hub to evaluate tech pricing quickly without needing to 'churn' the internet 
+- Users who want personalized, data-driven insights into whether a product is a “good deal”
+
+## Limitations
+
+1. **Limited Data Sources**
+- My database is limited to output rendered and provided by my webscrapers in the timeframe of this project, as a result of this, I am currently unable to provide a complete and accurate capture of *all* historical price trends for *all* tech-related consumer products.
+  - While the project aggregates data from multiple sites, it does not cover every retailer or every type of tech product.
+  - The insights are only as comprehensive as the platforms being scraped.
+
+ 2. **Scraper Reliability & Website Changes**
+- Web-scraping depends on website structure and accessibility:
+  - Any layout changes on a dynamic website can break the webscrapers / any additional that are added to the project.
+  - Certain sites may restrict access via robots.txt
+  - CAPTCHAs or rate limits may cause inconsistent results
+   - The project reflects best-effort data collection, not enterprise-level scraping reliability.
+3. **Not a Real-Time Price Tracker**
+- This is not a live, instantly updated price-monitoring service.
+Scrapers run at scheduled intervals, so:
+  - Prices may lag behind real-time market changes.
+  - Sudden promotions or flash deals may not always be captured immediately.
+
+4. **Ethical & Legal Scraping Boundaries**
+- The project follows ethical scraping principles, but:
+  - It only collects publicly accessible data
+  - It cannot bypass access restrictions
+  - Rate limiting and responsible usage are enforced
+
+
 ## Features
 -  **Price History Tracking** - Track deal prices over time
 -  **Price Drop Alerts** - See the biggest discounts on tech products (by keywords & categories)
