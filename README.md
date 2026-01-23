@@ -34,6 +34,21 @@ Tech Deal Forge reduces the time, stress, and uncertainty involved in tech-deal 
 -  **AI Predictions** - ML-powered deal quality scoring
 -  **Multi-Source Aggregation** - SlickDeals & Best Buy
 
+
+## Machine Learning Model
+
+A lightweight regression model predicts potential price drops based on historical trends. It uses features like:
+
+- Current price
+- Historical average price
+- Time since last price drop
+- Category-specific trends
+- Discount percentage
+
+This is a RandomForestRegressor model trained on historical price data to provide an analytical score indicating deal quality, helping users decide whether to buy now or wait, based on predicted future prices. 
+
+![RFR ML Model Performance](images/Misc%20Images/predictions_ml_rf_deal_forge_12-02-2025.png)
+
 ## Local Installation
 
 ```bash
@@ -79,20 +94,6 @@ Senior-Project-Tech-Deal-Forge/
            └── ML_Script_RTF_Tech_Forge_FA2025.ipynb # Google Colab Notebook
 └── requirements.txt            # Python dependencies
 ```
-
-## Machine Learning Model
-
-A lightweight regression model predicts potential price drops based on historical trends. It uses features like:
-
-- Current price
-- Historical average price
-- Time since last price drop
-- Category-specific trends
-- Discount percentage
-
-This is a RandomForestRegressor model trained on historical price data to provide an analytical score indicating deal quality, helping users decide whether to buy now or wait, based on predicted future prices. 
-
-![RFR ML Model Performance](images/Misc%20Images/predictions_ml_rf_deal_forge_12-02-2025.png)
 
 ## Limitations of my Project & Disclaimers
 
