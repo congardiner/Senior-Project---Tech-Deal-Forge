@@ -6,6 +6,10 @@
 
 The 'Tech Deal Forge' is an all-in-one dashboard for discovering real tech deals without the noise. It consolidates web-scraped pricing data, historical trends, and lightweight machine-learning predictions into a single streamlined platform. By aggregating product information from multiple sources and presenting it through a simple Streamlit interface, the project helps users quickly determine whether a tech product is fairly priced, discounted, or worth waiting for.
 
+## Streamlit Dashboard
+
+![Tech Deal Forge Dashboard](images/Misc%20Images/tech-deal-forge-dashboard.png)
+
 ## Problem Statement
 
 Finding a genuine “good deal” on tech products is time-consuming, inconsistent, and often misleading due to scattered information, promotional bias, and fluctuating prices. Users are forced to manually search multiple sites or rely on community forums that don’t always provide historical context or price-trend insights.
@@ -30,9 +34,20 @@ Tech Deal Forge reduces the time, stress, and uncertainty involved in tech-deal 
 -  **AI Predictions** - ML-powered deal quality scoring
 -  **Multi-Source Aggregation** - SlickDeals & Best Buy
 
-## Streamlit Dashboard
 
-![Tech Deal Forge Dashboard](images/Misc%20Images/tech-deal-forge-dashboard.png)
+## Machine Learning Model
+
+A lightweight regression model predicts potential price drops based on historical trends. It uses features like:
+
+- Current price
+- Historical average price
+- Time since last price drop
+- Category-specific trends
+- Discount percentage
+
+This is a RandomForestRegressor model trained on historical price data to provide an analytical score indicating deal quality, helping users decide whether to buy now or wait, based on predicted future prices. 
+
+![RFR ML Model Performance](images/Misc%20Images/predictions_ml_rf_deal_forge_12-02-2025.png)
 
 ## Local Installation
 
@@ -79,20 +94,6 @@ Senior-Project-Tech-Deal-Forge/
            └── ML_Script_RTF_Tech_Forge_FA2025.ipynb # Google Colab Notebook
 └── requirements.txt            # Python dependencies
 ```
-
-## Machine Learning Model
-
-A lightweight regression model predicts potential price drops based on historical trends. It uses features like:
-
-- Current price
-- Historical average price
-- Time since last price drop
-- Category-specific trends
-- Discount percentage
-
-This is a RandomForestRegressor model trained on historical price data to provide an analytical score indicating deal quality, helping users decide whether to buy now or wait, based on predicted future prices. 
-
-![RFR ML Model Performance](images/Misc%20Images/predictions_ml_rf_deal_forge_12-02-2025.png)
 
 ## Limitations of my Project & Disclaimers
 
